@@ -22,7 +22,7 @@ const icons = (
     <IconWithLabel
       icon={require("~/components/About/images/github.png")}
       title="GitHub Repo"
-      onOpen={() => window.open("https://github.com/1000hz/winmine-exe")}
+      onOpen={() => window.open("https://github.com/shanecurran/evervault95")}
     />
     <IconWithLabel
       icon={require("~/components/About/images/glyph.png")}
