@@ -1,0 +1,47 @@
+{
+  "name": "evervault95",
+  "version": "1.0.0",
+  "description": "Privacy-preserving Windows 95",
+  "main": "index.js",
+  "author": "Shane Curran <shane@evervault.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "now-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "evervault-react": "^0.0.3",
+    "invariant": "^2.2.4",
+    "lodash-es": "^4.17.14",
+    "next": "^9.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-root-import": "^6.1.0",
+    "babel-plugin-styled-components": "^1.8.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "jest": "^23.6.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
+    "next-transpile-modules": "^2.0.0",
+    "prettier": "^1.18.2"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(lodash-es)/)"
+    ]
+  }
+}
