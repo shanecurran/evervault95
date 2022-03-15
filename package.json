@@ -17,7 +17,7 @@
   "dependencies": {
     "evervault-react": "^0.0.3",
     "invariant": "^2.2.4",
-    "lodash-es": "^4.17.14",
+    "lodash-es": "^4.17.21",
     "next": "^9.0.6",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
